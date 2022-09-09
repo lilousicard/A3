@@ -1,0 +1,14 @@
+  251  cd ~
+  252  wget https://github.com/torvalds/linux/archive/master.zip
+  253  unzip master.zip
+  254  cd linux-master
+  255  pwd
+  256  alias l='ls -latr'
+  257  l
+  258  find . -name mem.c
+  259  find . -name mem.c | xargs head
+  260  find . -name mem.c | xargs grep 86
+  261  cd ..
+  262  history > worksheet3.log
+  263  head worksheet3.log
+  264  history > worksheet3.log
